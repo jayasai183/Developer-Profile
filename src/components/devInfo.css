@@ -1,0 +1,183 @@
+body {
+    margin: 0%;
+}
+
+.devpro-header-class {
+    height: 70px;
+    background: #2F2E41;
+    display: grid;
+    align-items: center;
+
+}
+
+.devpro-header-wrapper {
+    display: flex;
+    color: #FFFFFF;
+    justify-content: space-between;
+
+    
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #FFFFFF;
+}
+
+.developer-profile {
+    padding-left: 5%;
+}
+
+.all-developers {
+    padding-right: 5%;
+    cursor: pointer;
+}
+
+.profile-body-class {
+    background: #E5E5E5;
+    height: 350px;
+    display: grid;
+    grid-template-columns: 30% auto;
+    align-items: center;
+}
+
+.profile-pic-class {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.profile {
+    height: 280px;
+    border-radius: 50%;
+    cursor:auto;
+}
+
+.details-body-class {
+    width:90%;
+    height: 260px;
+    display: grid;
+    grid-template-rows: 70px auto 45px 45px;
+    align-items: flex-end;
+    padding-left: 25px;
+    font-family: 'Nunito Sans';
+
+}
+
+.name-class {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    color: #3F3D56;
+}
+
+.bio-class {
+    align-self: baseline;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px; 
+    padding-top: 2%;
+    color: #3F3D56;
+}
+
+img {
+    height: 28px;
+    margin-right: 1%;
+    cursor: pointer;
+}
+
+.address-class>img {
+    margin-right: 0%;
+    height: 14px;
+}
+
+span {
+    margin-right: 2%;
+    font-size: 18px;
+}
+
+.github-title {
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 48px;
+
+    color: #3F3D56;
+}
+
+.github-hr {
+    width: 90%;
+    height: 2px;
+    margin-bottom: 5%;
+
+    background: #D0CDE1;
+}
+
+.repos-class {
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    margin-left: 8%;
+    margin-right: 8%;
+
+}
+
+/* .repo-class {
+    white-space: 'normal';
+    word-wrap: break-word;
+} */
+
+.repo-title {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.repo-name {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+
+    color: #0768FA;
+}
+
+.repo-link {
+    height: 20px;
+    margin-left: 1%;
+}
+
+.repo-update {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+
+    color: #3F3D56;
+
+    opacity: 0.4;
+}
+
+.repo-hr {
+    height: 2px;
+    margin-bottom: 1%;
+    width:100%;
+    background: #D0CDE1;
+}
+
+.description {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 44px;
+
+    color: #3F3D56;
+}

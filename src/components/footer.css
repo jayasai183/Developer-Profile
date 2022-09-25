@@ -1,0 +1,23 @@
+.footer-class {
+    width: 100%;
+    height: 50px;
+    left: 0px;
+    margin-top: 20px;
+    background-color: #3F3D56;
+}
+
+.footer-text {
+    width: 412px;
+    height: 30px;
+    margin-left: 42%;
+    top: 5%;
+    padding-top: 0.5%;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 120%;
+    line-height: 33px;
+
+    color: #FFFFFF;
+
+}

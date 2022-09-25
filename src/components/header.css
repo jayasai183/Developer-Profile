@@ -1,0 +1,27 @@
+
+.header-class {
+    height: 380px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: #2F2E41;
+}
+
+.text-class {
+    margin-left: 110px;
+    margin-top: 110px;
+    width:35%;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+
+    color: #FFFFFF;
+}
+
+.image-class img {
+    height: 300px;
+    margin-right: 90px;
+    margin-top: 40px;
+
+}
